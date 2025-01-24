@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Apologize-o-Matic 3000</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-light">
+  <div class="container text-center py-5">
+    <h1 class="display-4 mb-4">🤖 Apologize-o-Matic 3000 🤖</h1>
+    <p class="lead mb-4">Generate the perfect apology for awkward moments!</p>
+    
+    <div class="mb-4">
+      <input type="text" id="scenarioInput" class="form-control mb-3" placeholder="Describe your awkward scenario...">
+      <button id="generateBtn" class="btn btn-primary btn-lg">Generate Apology</button>
+      <button id="randomBtn" class="btn btn-warning btn-lg">Surprise Me!</button>
+    </div>
+
+    <div id="apologyDisplay" class="p-4 bg-white rounded shadow">
+      <p id="apologyText" class="fs-4 fw-bold text-danger"></p>
+      <button id="shareBtn" class="btn btn-success mt-3">Share as Meme</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
